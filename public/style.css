@@ -1,21 +1,48 @@
+@font-face {
+  font-family: 'WeblySleek';
+  src: local('WeblySleek'),
+    url('./fonts/WeblySleek/weblysleekuil.ttf') format('truetype');
+}
+
+:root {
+  font-size: 16px;
+  font-family: WeblySleek, sans-serif;
+}
+
 body {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  text-decoration: none;
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #585b62;
+  padding-bottom: 1rem;
+  margin: 0;
 }
 
-label {
-  display: block;
+p {
+  font-size: 1.3125rem;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
+#home-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
 }
 
-form div {
-  margin: 1em;
-  display: inline-block;
+#banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+
+  background-color: #3d3e42;
+  color: white;
 }
