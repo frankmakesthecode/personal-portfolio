@@ -4,7 +4,7 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 
 export const Content = () => {
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(false);
 
   const handleClick = () => {
     setActive(!active);
