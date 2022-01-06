@@ -11,8 +11,8 @@ export const AboutMe = () => {
         </p>
         <p>
           I'm Francis Yu and I'm a software developer based in Brooklyn, New
-          York. I'm also a recent graduate from Fullstack Academy's coding
-          bootcamp. I am proficient with Javascript/React.js, HTML, and CSS.
+          York. I'm also a graduate from Fullstack Academy's coding bootcamp. I
+          am proficient with Javascript/React.js, HTML, and CSS.
           <br />
           <br />
           Prior to Fullstack Academy, I gained experience as a Product and
