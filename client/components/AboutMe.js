@@ -16,7 +16,7 @@ export const AboutMe = () => {
           <br />
           <br />
           Prior to Fullstack Academy, I gained experience as a Product and
-          Account Manager. Collaborating with the company's developers to
+          Account Manager, collaborating with the company's developers to
           delivery simple and effective software solutions to our clients.
         </p>
       </div>

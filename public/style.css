@@ -4,6 +4,54 @@
     url('./fonts/WeblySleek/weblysleekuil.ttf') format('truetype');
 }
 
+@media only screen and (max-width: 600px) {
+  #home-container {
+    flex-direction: column;
+    height: 200vh;
+    width: 100vw;
+  }
+
+  #banner-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  #aboutme-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  #main-container {
+    justify-content: center;
+    height: 70%;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #home-container {
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #banner-container {
+    height: 100%;
+    width: 50%;
+  }
+
+  #aboutme-container {
+    height: 100%;
+    width: 50%;
+  }
+
+  #main-container {
+    justify-content: flex-start;
+    height: 40%;
+    width: 50%;
+  }
+}
+
 :root {
   font-size: 16px;
   font-family: WeblySleek, sans-serif;
@@ -49,9 +97,9 @@ span {
 
 #home-container {
   display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100vw;
+  /* flex-direction: row; */
+  /* height: 100vh;
+  width: 100vw; */
 }
 
 #banner-container {
@@ -60,8 +108,8 @@ span {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100%;
-  width: 50%;
+  /* height: 100%;
+  width: 50%; */
 
   background: url('https://images.unsplash.com/photo-1479030160180-b1860951d696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
   color: white;
@@ -80,17 +128,17 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 50%;
+  /* height: 100%;
+  width: 50%; */
 }
 
 #main-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   align-items: flex-start;
-  height: 40%;
-  width: 50%;
+  /* height: 40%;
+  width: 50%; */
 }
 
 #main-title {
