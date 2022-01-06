@@ -2,9 +2,9 @@ import React from 'react';
 
 export const AboutMe = () => {
   return (
-    <div id="aboutme-container">
+    <div className="content-wrapper">
       <div id="main-container">
-        <h1 id="about-title">About Me</h1>
+        <h1 className="content-title">About Me</h1>
         <p className="muted-text">
           First world <span>work ethic.</span> Third world{' '}
           <span>perspective.</span>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Banner from './Banner';
-import AboutMe from './AboutMe';
+import Content from './Content';
 
 /**
  * COMPONENT
@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <div id="home-container">
       <Banner />
-      <AboutMe />
+      <Content />
     </div>
   );
 };
