@@ -9,7 +9,7 @@ export const Banner = () => {
     <div id="banner-container">
       <div id="color-overlay"></div>
       <h2 id="main-title">Francis Yu</h2>
-      <p>developer, thinker, sports buff</p>
+      <p id="banner-tagline">developer, thinker, sports buff</p>
       <div id="account-container">
         <a href="mailto:francisjosephyu@gmail.com">
           <img src={gmail} className="banner-icon" />

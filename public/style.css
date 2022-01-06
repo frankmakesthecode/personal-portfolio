@@ -9,17 +9,12 @@
   font-family: WeblySleek, sans-serif;
   --bg-primary: #2c2d32;
   --bg-secondary: #585b62;
+  --accent-color: #65c78c;
 }
 
 body {
   margin: 0;
   padding: 0;
-}
-
-p {
-  z-index: 1;
-  font-size: 1.3125rem;
-  margin-bottom: 2.5rem;
 }
 
 .banner-icon {
@@ -37,11 +32,19 @@ p {
 }
 
 .banner-icon:hover {
-  background: #65c78c;
+  background: var(--accent-color);
 }
 
 .banner-icon-alt:hover {
-  background: #65c78c;
+  background: var(--accent-color);
+}
+
+.muted-text {
+  color: #a7a7a7;
+}
+
+span {
+  color: black;
 }
 
 #home-container {
@@ -72,6 +75,24 @@ p {
   opacity: 0.85;
 }
 
+#aboutme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 40%;
+  width: 50%;
+}
+
 #main-title {
   z-index: 1;
   text-transform: uppercase;
@@ -81,6 +102,21 @@ p {
   border-bottom: 2px solid var(--bg-secondary);
   padding-bottom: 1rem;
   margin: 0;
+}
+
+#banner-tagline {
+  z-index: 1;
+  font-size: 1.3125rem;
+  margin-bottom: 2.5rem;
+}
+
+#about-title {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #72cc95;
+  padding-bottom: 1rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 #account-container {
